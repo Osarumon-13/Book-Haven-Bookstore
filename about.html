@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven Bookstore - About Us</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+    <img src="Client3_LogoPalette1_EE583F.png"
+         alt="Book Haven Bookstore Logo">
+
+    <h1>Book Haven Bookstore</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Events</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <section>
+
+        <h2>About Book Haven Bookstore</h2>
+
+        <p>
+            Book Haven Bookstore offers books, magazines, journals,
+            and reading accessories. We strive to create a welcoming
+            environment for readers of all ages.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>Business Hours</h2>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Hours</th>
+            </tr>
+
+            <tr>
+                <td>Monday - Friday</td>
+                <td>9:00 AM - 8:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>10:00 AM - 6:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Sunday</td>
+                <td>11:00 AM - 5:00 PM</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section>
+
+        <h2>Customer Feedback</h2>
+
+        <form>
+
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" required>
+
+            <br><br>
+
+            <label for="feedback">Feedback:</label>
+            <br>
+            <textarea id="feedback" rows="5" cols="40" required></textarea>
+
+            <br><br>
+
+            <button type="button" onclick="saveFeedback()">
+                Submit Feedback
+            </button>
+
+        </form>
+
+    </section>
+
+    <section>
+
+        <h2>Custom Book Order</h2>
+
+        <form>
+
+            <label for="booktitle">Book Title:</label>
+            <br>
+            <input type="text" id="booktitle" required>
+
+            <br><br>
+
+            <label for="details">Order Details:</label>
+            <br>
+            <textarea id="details" rows="5" cols="40" required></textarea>
+
+            <br><br>
+
+            <button type="button" onclick="saveOrder()">
+                Submit Order
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <h3>Newsletter Signup</h3>
+
+    <button onclick="subscribe()">Subscribe</button>
+
+    <br><br>
+
+    <h3>Follow Us</h3>
+
+    <a href="#">Facebook</a> |
+    <a href="#">Instagram</a> |
+    <a href="#">X</a>
+
+    <br><br>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="about.html">About Us</a> |
+        <a href="events.html">Events</a>
+    </nav>
+
+    <p>&copy; 2026 Book Haven Bookstore</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

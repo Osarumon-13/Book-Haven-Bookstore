@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven Bookstore - Gallery</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+    <img src="Client3_LogoPalette1_EE583F.png"
+         alt="Book Haven Bookstore Logo">
+
+    <h1>Book Haven Bookstore</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Events</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <h2>Gallery</h2>
+
+    <button onclick="viewCart()">View Cart</button>
+    <button onclick="clearCart()">Clear Cart</button>
+    <button onclick="processOrder()">Process Order</button>
+
+    <br><br>
+
+    <div id="cartDisplay">
+        Cart Items Will Appear Here
+    </div>
+
+    <br><br>
+
+    <table>
+
+        <tr>
+
+            <td>
+                <img src="Client3_Book1.png" alt="Brie Mine 4Ever">
+                <p>Brie Mine 4Ever</p>
+                <button onclick="addToCart('Brie Mine 4Ever')">
+                    Add to Cart
+                </button>
+            </td>
+
+            <td>
+                <img src="Client3_Book2.png" alt="Glory Riders">
+                <p>Glory Riders</p>
+                <button onclick="addToCart('Glory Riders')">
+                    Add to Cart
+                </button>
+            </td>
+
+            <td>
+                <img src="Client3_Book3.png" alt="Sorcerer's Shadowed Chronicles">
+                <p>Sorcerer's Shadowed Chronicles</p>
+                <button onclick="addToCart('Sorcerer Chronicles')">
+                    Add to Cart
+                </button>
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <img src="Client3_Magazine1.png" alt="Ball Magazine">
+                <p>Ball Magazine</p>
+                <button onclick="addToCart('Ball Magazine')">
+                    Add to Cart
+                </button>
+            </td>
+
+            <td>
+                <img src="Client3_Magazine2.png" alt="Travel Magazine">
+                <p>Travel Magazine</p>
+                <button onclick="addToCart('Travel Magazine')">
+                    Add to Cart
+                </button>
+            </td>
+
+            <td>
+                <img src="Client3_Magazine3.png" alt="Eat Magazine">
+                <p>Eat Magazine</p>
+                <button onclick="addToCart('Eat Magazine')">
+                    Add to Cart
+                </button>
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <img src="Client3_Notebook.png" alt="Notebook">
+                <p>Book Haven Notebook</p>
+                <button onclick="addToCart('Notebook')">
+                    Add to Cart
+                </button>
+            </td>
+
+            <td>
+                <img src="Client3_Stickers.png" alt="Stickers">
+                <p>Book Haven Stickers</p>
+                <button onclick="addToCart('Stickers')">
+                    Add to Cart
+                </button>
+            </td>
+
+            <td>
+                <img src="Client3_ToteBag.png" alt="Tote Bag">
+                <p>Book Haven Tote Bag</p>
+                <button onclick="addToCart('Tote Bag')">
+                    Add to Cart
+                </button>
+            </td>
+
+        </tr>
+
+    </table>
+
+</main>
+
+<footer>
+
+    <h3>Newsletter Signup</h3>
+
+    <button onclick="subscribe()">Subscribe</button>
+
+    <br><br>
+
+    <h3>Follow Us</h3>
+
+    <a href="#">Facebook</a> |
+    <a href="#">Instagram</a> |
+    <a href="#">X</a>
+
+    <br><br>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="about.html">About Us</a> |
+        <a href="events.html">Events</a>
+    </nav>
+
+    <p>&copy; 2026 Book Haven Bookstore</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
